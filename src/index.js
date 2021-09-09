@@ -8,7 +8,7 @@ const client = new tmi.Client({
 		password: process.env.TWITCH_USER,
         joinInterval: 60000, //timeout de 1 minuto
 	},
-	channels: [ 'mulacurta','hyugoo','pmantis']
+	channels: [ 'mulacurta','hyugoo','pmantis','clastra']
 });
 
 client.connect();
